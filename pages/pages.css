@@ -1,0 +1,116 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    }
+
+html {
+    cursor: url(auto.png), auto;
+}
+
+body {
+    background: url(./pages-background.png);
+}
+
+a:hover {
+    cursor: url(point.png), auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.head-title {
+    background-color: rgba(63, 100, 181, 0.72);
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.head-title ul {
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.head-title li, .head-title img {
+    display: inline-block;
+    width: auto;
+    height: 4rem;
+    background-color: none;
+    margin-left: 4rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+
+.aronaimg {
+    left: 6rem;
+    width: 16.8666666667rem;
+    top: 17rem;
+    position: absolute;
+    max-width: 100%;
+    transform: scale(1.7);
+    max-height: 100%;
+}
+
+.top-text {
+    display: flex;
+}
+
+.pages-margin {
+    background: url(./pagesbg.png);
+    position: absolute;
+    top: 27%;
+    left: 38%;
+    transform: scale(1.6);
+    display: flex;
+    height: 31.9333333333rem;
+    width: 44.8rem;
+    background-size: 100% 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.6rem 1.4666666667rem 0 1.7333333333rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.article ul li {
+    cursor: pointer;
+    width: 280px;
+    height: 2.3333333333rem;
+    border-bottom: .0666666667rem solid #909090;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    color: white;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.article ul li .date {
+    position: absolute;
+    right: .2666666667rem;
+    bottom: 0;
+    font-size: .4rem;
+    color: #fff;
+}

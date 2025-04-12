@@ -1,0 +1,29 @@
+/* 引入 GitHub 风格样式 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css');
+
+/* 自定义样式增强 */
+.markdown-body {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 公式渲染样式修正 */
+.MathJax {
+    font-size: 1.1em !important;
+    margin: 1em 0;
+  }
+  
+  /* 行内公式对齐修正 */
+  mjx-container[jax="CHTML"] {
+    vertical-align: middle !important;
+  }
+  
+  /* Markdown 容器边距优化 */
+  .markdown-body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
